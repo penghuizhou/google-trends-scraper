@@ -20,7 +20,8 @@ def pull_google_trends():
         
         # Initialize pytrends with retry logic
         log_message("Initializing connection to Google Trends...")
-        pytrends = TrendReq(hl='en-US', tz=360, timeout=(10, 25), retries=2, backoff_factor=0.5)
+        pytrends = TrendReq(hl='en-US', tz=360)
+
         
         # Define queries
         queries = ['Marble countertop', 'home remodel']
