@@ -1,5 +1,5 @@
 # Data files - don't commit actual data
-google_trends_data.xlsx
+# google_trends_data.xlsx
 *.xlsx
 *.csv
 
