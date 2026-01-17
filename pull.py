@@ -7,6 +7,9 @@ import os
 import time
 import sys
 
+##add lines
+
+
 def log_message(message):
     """Print timestamped log message"""
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
