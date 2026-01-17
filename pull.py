@@ -101,6 +101,7 @@ def pull_google_trends():
         log_message(f"Error type: {type(e).__name__}")
         return False
 
+        
 if __name__ == "__main__":
     success = pull_google_trends()
     sys.exit(0 if success else 1)
